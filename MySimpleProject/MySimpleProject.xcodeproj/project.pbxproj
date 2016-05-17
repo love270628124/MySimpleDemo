@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		920F8B6C1CE5692F00BC09C9 /* RJProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 920F8B6B1CE5692F00BC09C9 /* RJProgressHUD.m */; };
 		92A92B111CE303A300DC057D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 92A92B101CE303A300DC057D /* main.m */; };
 		92A92B141CE303A300DC057D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 92A92B131CE303A300DC057D /* AppDelegate.m */; };
 		92A92B171CE303A300DC057D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 92A92B161CE303A300DC057D /* ViewController.m */; };
@@ -35,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		920F8B6A1CE5692F00BC09C9 /* RJProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RJProgressHUD.h; sourceTree = "<group>"; };
+		920F8B6B1CE5692F00BC09C9 /* RJProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RJProgressHUD.m; sourceTree = "<group>"; };
 		92A92B0C1CE303A300DC057D /* MySimpleProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MySimpleProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		92A92B101CE303A300DC057D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		92A92B121CE303A300DC057D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -79,6 +82,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		920F8B691CE568E700BC09C9 /* RJLoadingHUD */ = {
+			isa = PBXGroup;
+			children = (
+				920F8B6A1CE5692F00BC09C9 /* RJProgressHUD.h */,
+				920F8B6B1CE5692F00BC09C9 /* RJProgressHUD.m */,
+			);
+			path = RJLoadingHUD;
+			sourceTree = "<group>";
+		};
 		92A92B031CE303A300DC057D = {
 			isa = PBXGroup;
 			children = (
@@ -107,6 +119,7 @@
 				92A92B131CE303A300DC057D /* AppDelegate.m */,
 				92A92B151CE303A300DC057D /* ViewController.h */,
 				92A92B161CE303A300DC057D /* ViewController.m */,
+				920F8B691CE568E700BC09C9 /* RJLoadingHUD */,
 				92A92B421CE30AD400DC057D /* Main Files */,
 				92A92B0F1CE303A300DC057D /* Supporting Files */,
 			);
@@ -280,6 +293,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				920F8B6C1CE5692F00BC09C9 /* RJProgressHUD.m in Sources */,
 				92A92B171CE303A300DC057D /* ViewController.m in Sources */,
 				92A92B141CE303A300DC057D /* AppDelegate.m in Sources */,
 				92A92B111CE303A300DC057D /* main.m in Sources */,
@@ -510,6 +524,7 @@
 				92A92B3B1CE303A300DC057D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		92A92B3C1CE303A300DC057D /* Build configuration list for PBXNativeTarget "MySimpleProjectTests" */ = {
 			isa = XCConfigurationList;
@@ -518,6 +533,7 @@
 				92A92B3E1CE303A300DC057D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		92A92B3F1CE303A300DC057D /* Build configuration list for PBXNativeTarget "MySimpleProjectUITests" */ = {
 			isa = XCConfigurationList;
@@ -526,6 +542,7 @@
 				92A92B411CE303A300DC057D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
