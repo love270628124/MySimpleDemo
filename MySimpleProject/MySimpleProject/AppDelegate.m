@@ -22,8 +22,8 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     //
-    self.window.rootViewController = self.nav;
-    [self.window makeKeyAndVisible];
+//    self.window.rootViewController = self.nav;
+//    [self.window makeKeyAndVisible];
     
     return YES;
 }

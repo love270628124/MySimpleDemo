@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="zTP-QQ-K0U">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
     </dependencies>
@@ -21,6 +21,67 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-1850" y="-2923"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="hfA-US-Uw3">
+            <objects>
+                <navigationController id="zTP-QQ-K0U" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="tv2-yQ-fD4">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="ptm-Jt-eE3" kind="relationship" relationship="rootViewController" id="OTl-O5-9ed"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="U3o-Jq-5PC" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-2459" y="-2178"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="b5e-m3-iVV">
+            <objects>
+                <viewController id="ptm-Jt-eE3" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="sbp-Z2-ngy"/>
+                        <viewControllerLayoutGuide type="bottom" id="pYY-xA-yhA"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="wDo-Sz-yGs" customClass="RJAlertView">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ztf-ai-7Rf">
+                                <rect key="frame" x="20" y="72" width="75" height="30"/>
+                                <state key="normal" title="弹窗样式一"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="F2v-Wh-vHh">
+                                <rect key="frame" x="20" y="110" width="75" height="30"/>
+                                <state key="normal" title="弹窗样式二"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LFG-Oq-JuN">
+                                <rect key="frame" x="20" y="148" width="75" height="30"/>
+                                <state key="normal" title="弹窗样式三"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sJa-RP-7go">
+                                <rect key="frame" x="20" y="186" width="75" height="30"/>
+                                <state key="normal" title="弹窗样式四"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ADx-Dw-TOu">
+                                <rect key="frame" x="20" y="224" width="75" height="30"/>
+                                <state key="normal" title="弹窗样式五"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NmP-0b-qRA">
+                                <rect key="frame" x="20" y="262" width="75" height="30"/>
+                                <state key="normal" title="弹窗样式六"/>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="6qK-EY-cbC"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="7HC-FJ-udp" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1669" y="-2178"/>
         </scene>
     </scenes>
 </document>

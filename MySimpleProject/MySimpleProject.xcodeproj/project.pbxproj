@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		920F8B6C1CE5692F00BC09C9 /* RJProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 920F8B6B1CE5692F00BC09C9 /* RJProgressHUD.m */; };
+		921A03BE1CF7F15B00C0967A /* RJAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 921A03BD1CF7F15B00C0967A /* RJAlertView.m */; };
 		92A92B111CE303A300DC057D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 92A92B101CE303A300DC057D /* main.m */; };
 		92A92B141CE303A300DC057D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 92A92B131CE303A300DC057D /* AppDelegate.m */; };
 		92A92B171CE303A300DC057D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 92A92B161CE303A300DC057D /* ViewController.m */; };
@@ -16,6 +17,7 @@
 		92A92B1F1CE303A300DC057D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92A92B1D1CE303A300DC057D /* LaunchScreen.storyboard */; };
 		92A92B2A1CE303A300DC057D /* MySimpleProjectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 92A92B291CE303A300DC057D /* MySimpleProjectTests.m */; };
 		92A92B351CE303A300DC057D /* MySimpleProjectUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 92A92B341CE303A300DC057D /* MySimpleProjectUITests.m */; };
+		92CFB39C1CFBCA2300A68A74 /* RJImageCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 92CFB39B1CFBCA2300A68A74 /* RJImageCache.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +40,8 @@
 /* Begin PBXFileReference section */
 		920F8B6A1CE5692F00BC09C9 /* RJProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RJProgressHUD.h; sourceTree = "<group>"; };
 		920F8B6B1CE5692F00BC09C9 /* RJProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RJProgressHUD.m; sourceTree = "<group>"; };
+		921A03BC1CF7F15B00C0967A /* RJAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RJAlertView.h; sourceTree = "<group>"; };
+		921A03BD1CF7F15B00C0967A /* RJAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RJAlertView.m; sourceTree = "<group>"; };
 		92A92B0C1CE303A300DC057D /* MySimpleProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MySimpleProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		92A92B101CE303A300DC057D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		92A92B121CE303A300DC057D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -55,6 +59,8 @@
 		92A92B341CE303A300DC057D /* MySimpleProjectUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MySimpleProjectUITests.m; sourceTree = "<group>"; };
 		92A92B361CE303A300DC057D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		92A92B431CE30FDF00DC057D /* BaseValues.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseValues.h; sourceTree = "<group>"; };
+		92CFB39A1CFBCA2300A68A74 /* RJImageCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RJImageCache.h; sourceTree = "<group>"; };
+		92CFB39B1CFBCA2300A68A74 /* RJImageCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RJImageCache.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,6 +97,15 @@
 			path = RJLoadingHUD;
 			sourceTree = "<group>";
 		};
+		921A03BB1CF7F13A00C0967A /* RJAlert */ = {
+			isa = PBXGroup;
+			children = (
+				921A03BC1CF7F15B00C0967A /* RJAlertView.h */,
+				921A03BD1CF7F15B00C0967A /* RJAlertView.m */,
+			);
+			path = RJAlert;
+			sourceTree = "<group>";
+		};
 		92A92B031CE303A300DC057D = {
 			isa = PBXGroup;
 			children = (
@@ -119,6 +134,8 @@
 				92A92B131CE303A300DC057D /* AppDelegate.m */,
 				92A92B151CE303A300DC057D /* ViewController.h */,
 				92A92B161CE303A300DC057D /* ViewController.m */,
+				92CFB3991CFBC88600A68A74 /* RJImageCache */,
+				921A03BB1CF7F13A00C0967A /* RJAlert */,
 				920F8B691CE568E700BC09C9 /* RJLoadingHUD */,
 				92A92B421CE30AD400DC057D /* Main Files */,
 				92A92B0F1CE303A300DC057D /* Supporting Files */,
@@ -161,6 +178,15 @@
 				92A92B201CE303A300DC057D /* Info.plist */,
 			);
 			name = "Main Files";
+			sourceTree = "<group>";
+		};
+		92CFB3991CFBC88600A68A74 /* RJImageCache */ = {
+			isa = PBXGroup;
+			children = (
+				92CFB39A1CFBCA2300A68A74 /* RJImageCache.h */,
+				92CFB39B1CFBCA2300A68A74 /* RJImageCache.m */,
+			);
+			path = RJImageCache;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -293,7 +319,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				921A03BE1CF7F15B00C0967A /* RJAlertView.m in Sources */,
 				920F8B6C1CE5692F00BC09C9 /* RJProgressHUD.m in Sources */,
+				92CFB39C1CFBCA2300A68A74 /* RJImageCache.m in Sources */,
 				92A92B171CE303A300DC057D /* ViewController.m in Sources */,
 				92A92B141CE303A300DC057D /* AppDelegate.m in Sources */,
 				92A92B111CE303A300DC057D /* main.m in Sources */,
